@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(183, 241, 237);
+    /* background-image: url('assets/SL-100420-36140-29.png'); */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    position: sticky;
+}
+
+
+header div {
+    display : inline;
+    margin-left : 10px;
+}
+
+header .satu {
+    display: inline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    padding-right: 420px;
+    padding-left: 30px;
+}
+
+header .dua {
+    display: flex-inline;
+    font-size: medium;
+    font-weight: bold;
+    padding-right: 40px;
+}
+
+profile {
+    display: flex;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+profile img {
+    width: 500px;
+    height: 500px;
+    background-color: rgba(245, 245, 245, 0.466);
+    border-style: dashed;
+    border-color: #b1e5f549;
+    border-radius: 20px;
+    margin:20px;
+    margin-right: 30px;
+}
+
+profile #group {
+    width: 420px;
+    height: 420px;
+    background-color: rgba(245, 245, 245, 0.952);
+    border-radius: 20px;
+    font-size: medium;
+    font-weight: bold;
+    margin:20px;
+}
+
+profile #group div {
+    padding: 40px;
+}
+
+Lore {
+    width: 500px;
+    height: 500px;
+    background-color: rgba(245, 245, 245, 0.466);
+    border-style: dashed;
+    border-color: #b1e5f549;
+    border-radius: 2%;
+    margin:20px;   
+}
+
